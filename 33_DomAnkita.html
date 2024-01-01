@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>Ankita</li>
+        <li>Nikita</li>
+        <li>Omkar</li>
+    </ul>
+
+    <script>
+        let bc=document.createElement("li")
+        bc.className="ank"
+        bc.id="d"
+        
+        document.querySelector("ul").appendChild(bc)
+        document.getElementById("d").innerHTML="Avi";
+        let ul=document.querySelector("ul")
+        ul.querySelector("li:nth-child(2)").style.color="blue"
+
+        ul.querySelector("li").remove()
+
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 50px;
+}
+
+#guessField{
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    width: 150px;
+}
+
+#sub{
+    height: 22px;
+    width: 98px;
+    background-color: antiquewhite;
+}
+
+.resultParas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+

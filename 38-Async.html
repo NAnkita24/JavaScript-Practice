@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ankita Jagtap</h1>
+    <input type="button" value="change" id="btn">
+
+    <script>
+      const abc= function(){
+        console.log("Ankita");
+        }
+        const changeText=function(){
+            document.querySelector('h1').innerHTML="Karti"
+
+        }
+        const text=setTimeout(changeText,2000)
+        
+        document.querySelector('#btn').addEventListener('click',function(e){
+            clearTimeout (text);
+        })
+
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul id="omk">
+        <li>Ankita</li>
+        <li>Omkar</li>
+        <li>Avi</li>
+        <li>Nikita</li>
+    </ul>
+    
+    <div class="abc">
+        OMKAR
+    </div>
+
+    <script>
+        let a=document.createElement("div");
+        a.className = "abc"
+        a.id ="ank"
+        document.body.appendChild(a);
+        document.getElementById("ank").innerHTML="ankita"
+        document.querySelector(".abc").style.color="red"
+
+        let b=document.querySelector("#omk")
+        let c = b.querySelector("li:nth-child(3)")
+        c.style.color="red"
+    </script>
+</body>
+</html>

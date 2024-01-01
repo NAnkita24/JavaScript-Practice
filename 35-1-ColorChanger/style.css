@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 20px 40px;
+}
+
+.abc{
+display: flex;
+}
+
+.button{
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    margin-left: 30px;
+}
+
+#Orange{
+background-color: orange;
+}
+
+#White{
+background-color: white;
+}
+
+#Green{
+    background-color: green;
+
+}
+
+#Red{
+    background-color: red;
+
+}
